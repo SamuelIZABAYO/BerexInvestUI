@@ -1,0 +1,274 @@
+/* Body */
+body {
+    margin: 0.3rem 0.5rem 0.4rem 0.5rem;
+    background-color: #fefffe;
+}
+
+
+/* Navbar */
+#topheader .navbar .navbar-nav>li>a {
+    line-height: 90px;
+}
+
+.navbar-nav .active {
+    background-color: #3b529f;
+}
+
+.container .navbar {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #000;
+}
+
+#activated {
+    color: white;
+}
+
+.navbar {
+    padding-bottom: 1.5rem solid red;
+}
+
+/* navbar icons */
+.blue-color {
+    color: #253f94;
+}
+
+.navbar .navbar-nav::after {
+    background: 20px solid #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/* End of navbar section */
+
+/* carousels */
+
+.carousel .carousel-indicators li {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+.carousel-inner>.carousel-item>img,
+.carousel-inner>.carousel-item>img {
+    width: 100%;
+}
+
+/* customize carousel caption */
+.carousel-caption {
+    text-align: left;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 1)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 1) 100%);
+    box-sizing: border-box;
+    color: white;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0);
+    margin-bottom: 12rem;
+    width: 250px;
+    font-size: 180px;
+}
+
+/* adjust carousel by screen size */
+@media only screen and (max-width: 576px) {
+    .carousel-caption h5 {
+        font-size: 1rem;
+
+    }
+
+    .carousel-inner>.carousel-item>img {
+        width: 640px;
+        height: 360px;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #253f94;
+}
+
+footer li {
+    color: #fff;
+}
+
+/* customize footer links */
+footer a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* customize address section */
+.address-info li {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* set icons color to white */
+.white-color {
+    color: #fff;
+}
+
+/* rotate phone icon */
+.phone-icon {
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* set copyright color to white */
+.footer-copyright {
+    color: white;
+    background-color: #0b2362;
+}
+
+/* footer titles */
+.footer-title {
+    border-bottom: 0.2em solid #fff;
+    color: #bc2328;
+    content: "";
+    display: inline-block;
+    font-size: 1rem;
+    padding-bottom: 0.6rem;
+    max-width: 70%;
+    white-space: nowrap;
+    width: 2.8em;
+}
+
+/* customize Belgian flag */
+#belgium-flag {
+    margin-right: 2px;
+}
+
+/* About us section */
+.about {
+    margin: 5rem;
+}
+
+.about-us {
+    color: #f10f17;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.guiding {
+    color: #243f94;
+    font-weight: bold;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+.about-us-text {
+    white-space: nowrap;
+    color: #707071;
+    font-size: 1.3rem;
+}
+
+.about-us-button {
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+}
+
+.read-me {
+    font-weight: 500;
+    padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+}
+
+/* End of about us section */
+
+/* Service section */
+.service {
+    background-color: #e6ebf3;
+}
+
+.our-service {
+    color: #f10f17;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.what-we-do {
+    color: #243f94;
+    font-weight: bold;
+    font-size: 2rem;
+    white-space: nowrap;
+}
+
+.service-title {
+    color: #243f94;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.service-description {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.service-card {
+    border-radius: 1.7rem;
+}
+
+#service-image {
+    min-width: 10px;
+    max-height: 200px;
+    min-width: 10px;
+    padding-bottom: 0.7rem;
+}
+
+/* Choose us section */
+
+.choose-us {
+    color: #f10f17;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.why-choose-us {
+    color: #243f94;
+    font-weight: bold;
+    font-size: 2rem;
+    white-space: nowrap;
+    padding-top: 0;
+}
+
+.choose-image {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.why-choose-us-description {
+    white-space: nowrap;
+    color: #707071;
+    font-size: 0.9rem;
+}
+
+.why-choose-us-subtitle {
+    color: #243f94;
+    font-weight: bold;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    padding-top: 0;
+}
+
+.why-choose-us-subtitle-subdescription {
+    white-space: nowrap;
+    color: #707071;
+    font-size: 0.6rem;
+}

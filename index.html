@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>BerexInvest</title>
+    <link rel="stylesheet" href="" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/style/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <div id="topheader">
+      <nav
+        class="navbar navbar-light navbar-expand-lg bg-light justify-content-center"
+      >
+        <a href="#" class="navbar-brand d-flex w-50 mr-auto">
+          <!-- Logo Image -->
+          <img
+            src="https://bootstrapious.com/i/snippets/sn-nav-logo/logo.png"
+            width="45"
+            alt=""
+            class="d-inline-block align-middle mr-2"
+          />
+          <!-- Logo Text -->
+          <span class="text-uppercase font-weight-bold">Company</span>
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsingNavbar3"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="navbar-collapse collapse w-100 font-weight-bold"
+          id="collapsingNavbar3"
+        >
+          <ul class="navbar-nav w-100 justify-content-centerabs-center-x">
+            <li class="nav-item active">
+              <a id="activated" href="#" class="nav-link"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Who We Are</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link">Invest</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+          <ul
+            class="nav navbar-nav ml-auto w-100 justify-content-end social-links"
+          >
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-twitter fa-circle fa-lg blue-color"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-facebook fa-circle fa-lg blue-color"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fab fa-linkedin-in fa-circle fa-lg blue-color"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+    </div>
+
+    <!-- Carousel -->
+    <div id="carousels" class="carousel-slide">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="assets/image/handshake.jpg"
+              alt="handshake"
+            />
+            <div class="carousel-caption d-none d-md-block text-left">
+              <h5>Guiding Investment to Where It is Needed Most!</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="assets/image/woman-success.jpg"
+              alt="woman success"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="assets/image/business-success-chart.jpg"
+              alt="business success chart"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Flags section -->
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-sm-3 col-12">
+          <div class="row">
+            <div class="col-lg-8 col-sm-9 col-12">
+              <div id="belgium-flag" class="hexagon">
+                <img src="assets/image/flags/Belgium.png" alt="Belgian flag" />
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-3 col-12">
+              <div class="col-lg-8 col-sm-9 col-12">
+                <div class="invest">Invest in Belgium</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-3 col-12">
+          <div class="row">
+            <div class="col-lg-2 col-sm-3 col-12">col1</div>
+            <div class="col-lg-2 col-sm-3 col-12">col2</div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-3 col-12">
+          <div class="row">
+            <div class="col-lg-2 col-sm-3 col-12">col1</div>
+            <div class="col-lg-2 col-sm-3 col-12">col2</div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-3 col-12">
+          <div class="row">
+            <div class="col-lg-2 col-sm-3 col-12">col1</div>
+            <div class="col-lg-2 col-sm-3 col-12">col2</div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-3 col-12">
+          <div class="row">
+            <div class="col-lg-2 col-sm-3 col-12">col1</div>
+            <div class="col-lg-2 col-sm-3 col-12">col2</div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- About us section  -->
+    <div class="container about">
+      <div class="row">
+        <div class="col-sm-2 col-md-6 first-column">
+          <p class="text-uppercase about-us col-sm-12 col-md-6">About us</p>
+          <p class="guiding">
+            Guiding Investment to <br />Where It is Needed Most!
+          </p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 second-column">
+          <p class="about-us-text">
+            Mobilizing Public/Private parternerships for investments in
+            various<br />
+            sectors in Africa. This workshop offers especially interested
+            private <br />
+            investors interdisciplinary and comparative analysis of key topics
+            to <br />
+            help them minimize risks and successfully invest on the continent.
+          </p>
+          <br />
+          <button class="about-us-button rounded-pill read-me">
+            Read more
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of about us section -->
+
+    <!-- Service section -->
+
+    <div class="service">
+      <div class="container py-5">
+        <div class="row text-left text-white">
+          <div class="col-lg-12">
+            <h1 class="display-4 text-uppercase our-service">Our service</h1>
+            <p class="what-we-do">What We Do</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-xl-3 col-sm-6 mb-5">
+            <div
+              class="bg-white img-rounded shadow-sm py-5 px-4 h-100 service-card"
+            >
+              <img
+                src="assets/image/icons/bar-chart.png"
+                alt=""
+                width="100"
+                class="img-fluid"
+                height="100"
+                width="100"
+                id="service-image"
+              />
+              <h5 class="mb-0 service-title">Investment Promotion Strategy</h5>
+              <span class="small text-muted service-description">
+                Formulating an effective investment promotion strategy
+              </span>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-sm-6 mb-5 service-card">
+            <div
+              class="bg-white img-rounded shadow-sm py-5 px-4 h-100 service-card"
+            >
+              <img
+                src="assets/image/icons/briefcase.png"
+                alt=""
+                width="90"
+                class="img-fluid"
+                height="100"
+                width="100"
+                id="service-image"
+              />
+              <h5 class="mb-0 service-title">Business Environment</h5>
+              <span class="small text-muted service-description">
+                Business Environment and Investment Promotion
+              </span>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-sm-6 mb-5">
+            <div
+              class="bg-white img-rounded shadow-sm py-5 px-4 h-100 service-card"
+            >
+              <img
+                src="assets/image/icons/chart.png"
+                alt=""
+                width="90"
+                class="img-fluid"
+                height="100"
+                width="100"
+                id="service-image"
+              />
+              <h5 class="mb-0 service-title">BEREX Invest & Ipas</h5>
+              <span class="small text-muted service-description">
+                Investment Promotion Agency
+              </span>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white shadow-sm py-5 px-4 h-100 service-card">
+              <img
+                src="assets/image/icons/message.png"
+                alt=""
+                width="90"
+                class="img-fluid"
+                height="100"
+                width="100"
+                id="service-image"
+              />
+              <h5 class="mb-0 service-title">Advisory</h5>
+              <span class="small text-muted service-description">
+                We advise and provide guidance to European private companies
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of service section -->
+
+    <!-- Choose us section -->
+
+    <div class="container choose">
+      <div class="row">
+        <div class="col-sm-2 col-md-6 first-column">
+          <div class="choose-image">
+            <img class="img-fluid" src="assets/image/people-handshaking.jpg" />
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 second-column">
+          <p class="text-uppercase choose-us">choose us</p>
+          <p class="why-choose-us">Why Choose Us</p>
+          <p class="why-choose-us-description">
+            We are an Establishment, investment management <br />
+            company based in the heart of Europe, Belgium
+          </p>
+          <div class="row">
+            <div class="col-md-4 none h-100">
+              <div class="well none">
+                <i class="fas fa-user-friends fa-circle fa-2x"></i>
+                <div class="text">
+                  <h3 class="why-choose-us-subtitle">Workshops</h3>
+                  <p class="why-choose-us-subtitle-subdescription">
+                    Mobilizing Public/Private parternerships for investments in
+                    various<br />
+                    sectors in Africa. This workshop offers especially
+                    interested private <br />
+                    investors interdisciplinary and comparative analysis of key
+                    topics to <br />
+                    help them minimize risks and successfully invest on the
+                    continent.
+                  </p>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-md-4 none h-100">
+              <div class="well none">
+                <i class="fas fa-plane-departure fa-circle fa-2x"></i>
+                <div class="text">
+                  <h3 class="why-choose-us-subtitle">
+                    Holiday & Tourism Annual Fair
+                  </h3>
+                  <p class="why-choose-us-subtitle-subdescription">
+                    Berex invest "Holiday and tourism annual fair" which
+                    showcases some of <br />
+                    Africa's finest tourist & holiday exotic
+                  </p>
+                </div>
+              </div>
+            </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End of choose us section -->
+
+    <!-- Partners section -->
+
+<div class="container about">
+      <div class="row">
+        <div class="col-sm-2 col-md-6 first-column">
+          <p class="text-uppercase about-us col-sm-12 col-md-6">Our partners</p>
+          <p class="guiding">
+            what we do
+          </p>
+        </div>
+      </div>
+
+        <div class="col-sm-1 col-md-6 first-column">
+           <div class="col">
+             <div class="col-md-12 mt-md-0 mt-1">
+            <a href="#" class="navbar-brand d-flex w-50 mr-auto">
+              <!-- Logo Image -->
+              <img
+                src="https://bootstrapious.com/i/snippets/sn-nav-logo/logo.png"
+                width="45"
+                alt=""
+                class="d-inline-block align-middle mr-2"
+              />
+              <!-- Logo Text -->
+              <span class="text-uppercase font-weight-bold" style="color: black;">Company</span>
+            </a>
+          </div>   
+           </div>
+        </div>
+    </div>
+
+    <!-- End of patners section -->
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-4 mt-md-0 mt-3">
+            <a href="#" class="navbar-brand d-flex w-50 mr-auto">
+              <!-- Logo Image -->
+              <img
+                src="https://bootstrapious.com/i/snippets/sn-nav-logo/logo.png"
+                width="45"
+                alt=""
+                class="d-inline-block align-middle mr-2"
+              />
+              <!-- Logo Text -->
+              <span class="text-uppercase font-weight-bold">Company</span>
+            </a>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none pb-3" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="footer-title">Quick Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Home</a>
+              </li>
+              <li>
+                <a href="#!">Services</a>
+              </li>
+              <li>
+                <a href="#!">Who We Are</a>
+              </li>
+              <li>
+                <a href="#!">Invest</a>
+              </li>
+              <li>
+                <a href="#!">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-md-0 mb-3">
+            <h5 class="footer-title">Address</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-map-marker fa-circle white-color"></i>
+                BEREX Invest Limited <br />
+                Rue de Mons (G), 85/0,3 7011 Mons.
+              </li>
+              <li>
+                <i class="fa fa-envelope fa-circle white-color"></i>
+                Info@berexinvest.com
+              </li>
+              <li>
+                <i class="fa fa-phone fa-circle white-color phone-icon"></i>
+                +250 758 621 558
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © All Rights Reserved, BEREX Invest 2021
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        "use strict";
+
+        $("ul.navbar-nav > li").click(function (e) {
+          e.preventDefault();
+          $("ul.navbar-nav > li").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
